@@ -13,9 +13,12 @@ pytest = "*"
 mock = "*"
 pytest-testdox = "*"
 pytest-ordering = "*"
+flask-migrate = "*"
+flask-sqlalchemy = "*"
+flask-jwt-extended = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "*"
 
 [scripts]
 start="python src/app.py"
